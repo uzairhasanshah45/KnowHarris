@@ -233,7 +233,7 @@ const Level3 = (props) => {
     return (
         <ImageBackground
             style={styles.container}
-            source={require('../../assets/images/level1.jpg')}>
+            source={require('../../assets/images/question.jpg')}>
             <View style={styles.mainView}>
                 <SafeAreaView backgroundColor={'#023e8a'} opacity={0.95} />
                 <View style={styles.quizheader}>

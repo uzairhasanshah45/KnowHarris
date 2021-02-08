@@ -7,7 +7,7 @@ const styles = ScaledSheet.create({
     justifyContent: "center"
   },
   mainView: {
-    backgroundColor: 'rgba(0,0,0,0.20)', 
+    backgroundColor: 'rgba(0,0,0,0.35)', 
     flex:1
   },
   animationHeader: {
@@ -35,7 +35,7 @@ const styles = ScaledSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     marginHorizontal: '30@ms',
-    height: '150@ms'
+    height: '150@ms',
   },
   question: {
     fontSize : '25@ms',

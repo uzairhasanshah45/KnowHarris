@@ -10,11 +10,11 @@ const FailedScreen = (props) => {
   return (
     <ImageBackground
       style={styles.container}
-      source={require('../../assets/images/fail.jpg')}>
+      source={require('../../assets/images/lose.jpg')}>
       <View style={styles.mainView}>
         <SafeAreaView backgroundColor={'#92B6D4'} opacity={0.95} />
-        <View style={styles.successHeader}>
-          <Text style={styles.headerText}>Sorry</Text>
+        <View style={[styles.successHeader, {width: '60%', padding: 20, borderTopRightRadius:15, borderBottomRightRadius: 15}]}>
+          <Text style={[styles.headerText, {fontSize: 70}]}>Sorry</Text>
         </View>
         <View style={styles.animationBox}>
           <LottieView

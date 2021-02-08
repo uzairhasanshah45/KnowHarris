@@ -6,7 +6,7 @@ export const styles = ScaledSheet.create({
     justifyContent: "center"
   },
   mainView: {
-    backgroundColor: 'rgba(0,0,0,0.25)',
+    backgroundColor: 'rgba(0,0,0,0.35)',
     flex:1,
     justifyContent: "center",
     alignItems:'center'
@@ -24,7 +24,7 @@ export const styles = ScaledSheet.create({
     justifyContent: 'center', 
     alignItems: 'center', 
     flex: 0.12, 
-    backgroundColor: 'rgba(0,0,0,0.25)', 
+    backgroundColor: 'rgba(0,0,0,0.35)', 
     marginTop: '10@ms', 
     width: '80%', 
     borderRadius: '10@ms' 

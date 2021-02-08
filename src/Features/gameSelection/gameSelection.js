@@ -61,7 +61,7 @@ const gameSelection = (props) => {
     return (
         <ImageBackground
             style={styles.container}
-            source={require('../../assets/images/kamalaharris.jpg')}>
+            source={require('../../assets/images/levels.jpg')}>
             <View style={styles.header}>
                 <Text style={styles.headertxt}>SELECT LEVELS</Text>
             </View>
